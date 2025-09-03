@@ -1,23 +1,197 @@
 <!DOCTYPE html>
-<html>
-  <head>
-   <title>
-     Webpage
-   </title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Test Results</title>
     <style>
-      .h1{
-        color:red;
-      }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .normal {
+            color: green;
+        }
+        .abnormal {
+            color: red;
+            font-weight: bold;
+        }
     </style>
-  </head>
-  <body>
-  <h1
-    class="h1">
-    This is a Basic Heading
-  </h1>
-  <p>
-    Once upon a time there lived a ghost.<br>
-    There lived many enemies in the town
-  </p>
-  </body>
+</head>
+<body>
+    <div class="container">
+        <h1>Blood Test Results</h1>
+
+        <h2>Patient Information</h2>
+        <p><strong>Name:</strong> John Doe</p>
+        <p><strong>Date of Birth:</strong> 1985-05-15</p>
+        <p><strong>Date of Test:</strong> 2025-08-30</p>
+
+        <h2>Test Results</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Test</th>
+                    <th>Result</th>
+                    <th>Reference Range</th>
+                    <th>Units</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hemoglobin</td>
+                    <td>14.5</td>
+                    <td>13.0 - 17.0</td>
+                    <td>g/dL</td>
+                    <td class="normal">Normal</td>
+                </tr>
+                <tr>
+                    <td>White Blood Cell Count (WBC)</td>
+                    <td>3.5</td>
+                    <td>4.0 - 10.0</td>
+                    <td>x10^9/L</td>
+                    <td class="abnormal">Low</td>
+                </tr>
+                <tr>
+                    <td>Glucose (Fasting)</td>
+                    <td>110</td>
+                    <td>70 - 99</td>
+                    <td>mg/dL</td>
+                    <td class="abnormal">High</td>
+                </tr>
+                <tr>
+                    <td>Cholesterol, Total</td>
+                    <td>180</td>
+                    <td>&lt;200</td>
+                    <td>mg/dL</td>
+                    <td class="normal">Normal</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Test Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .normal {
+            color: green;
+        }
+        .abnormal {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Blood Test Results</h1>
+
+        <h2>Patient Information</h2>
+        <p><strong>Name:</strong> John Doe</p>
+        <p><strong>Date of Birth:</strong> 1985-05-15</p>
+        <p><strong>Date of Test:</strong> 2025-08-30</p>
+
+        <h2>Test Results</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Test</th>
+                    <th>Result</th>
+                    <th>Reference Range</th>
+                    <th>Units</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hemoglobin</td>
+                    <td>14.5</td>
+                    <td>13.0 - 17.0</td>
+                    <td>g/dL</td>
+                    <td class="normal">Normal</td>
+                </tr>
+                <tr>
+                    <td>White Blood Cell Count (WBC)</td>
+                    <td>3.5</td>
+                    <td>4.0 - 10.0</td>
+                    <td>x10^9/L</td>
+                    <td class="abnormal">Low</td>
+                </tr>
+                <tr>
+                    <td>Glucose (Fasting)</td>
+                    <td>110</td>
+                    <td>70 - 99</td>
+                    <td>mg/dL</td>
+                    <td class="abnormal">High</td>
+                </tr>
+                <tr>
+                    <td>Cholesterol, Total</td>
+                    <td>180</td>
+                    <td>&lt;200</td>
+                    <td>mg/dL</td>
+                    <td class="normal">Normal</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
 </html>
