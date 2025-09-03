@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Test Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .normal {
+            color: green;
+        }
+        .abnormal {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Blood Test Report</h1>
+
+    <h2>Patient Information</h2>
+    <p><strong>Name:</strong> John Doe</p>
+    <p><strong>Date of Birth:</strong> 15/03/1980</p>
+    <p><strong>Date of Test:</strong> 01/09/2025</p>
+    <p><strong>Referring Doctor:</strong> Dr. Jane Smith</p>
+
+    <h2>Test Results</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Test Name</th>
+                <th>Result</th>
+                <th>Reference Range</th>
+                <th>Units</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hemoglobin</td>
+                <td>14.5</td>
+                <td>13.0 - 17.0</td>
+                <td>g/dL</td>
+                <td class="normal">Normal</td>
+            </tr>
+            <tr>
+                <td>White Blood Cell Count (WBC)</td>
+                <td>12.1</td>
+                <td>4.0 - 10.0</td>
+                <td>x10^9/L</td>
+                <td class="abnormal">High</td>
+            </tr>
+            <tr>
+                <td>Glucose (Fasting)</td>
+                <td>95</td>
+                <td>70 - 99</td>
+                <td>mg/dL</td>
+                <td class="normal">Normal</td>
+            </tr>
+            <tr>
+                <td>Cholesterol (Total)</td>
+                <td>220</td>
+                <td>< 200</td>
+                <td>mg/dL</td>
+                <td class="abnormal">High</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p style="margin-top: 30px;"><em>Note: Please consult with your healthcare provider for interpretation of these results.</em></p>
+
+</body>
+</html>
